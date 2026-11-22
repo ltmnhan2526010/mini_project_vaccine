@@ -1,0 +1,127 @@
+{
+  "nguon": "Kaggle – COVID-19 World Vaccination Progress (Gabriel Preda), CC0; dữ liệu gốc Our World in Data",
+  "tac_gia": "Lê Thị Mỹ Nhân (MSHV: M2526010) – Học phần Công nghệ số nâng cao (CT999), Đại học Cần Thơ",
+  "so_dong": 84056,
+  "so_quoc_gia": 179,
+  "tu_ngay": "02/12/2020",
+  "den_ngay": "29/03/2022",
+  "dinh_trieu_lieu": 43.6,
+  "dinh_ngay": "27/06/2021",
+  "trung_vi": 52.5,
+  "ty_le_dat": 26,
+  "nguong_dat": 70,
+  "top3": [
+    [
+      "United Arab Emirates",
+      96.1
+    ],
+    [
+      "Portugal",
+      92.6
+    ],
+    [
+      "Brunei",
+      91.7
+    ]
+  ],
+  "asean": [
+    [
+      "Brunei",
+      91.7
+    ],
+    [
+      "Singapore",
+      91.0
+    ],
+    [
+      "Cambodia",
+      82.5
+    ],
+    [
+      "Vietnam",
+      79.2
+    ],
+    [
+      "Malaysia",
+      78.7
+    ],
+    [
+      "Thailand",
+      71.7
+    ],
+    [
+      "Laos",
+      60.4
+    ],
+    [
+      "Philippines",
+      59.3
+    ],
+    [
+      "Indonesia",
+      57.5
+    ],
+    [
+      "Myanmar",
+      39.8
+    ]
+  ],
+  "vaccine_top3": [
+    [
+      "Oxford/AstraZeneca",
+      177
+    ],
+    [
+      "Pfizer/BioNTech",
+      152
+    ],
+    [
+      "Sinopharm/Beijing",
+      90
+    ]
+  ],
+  "tuong_quan": {
+    "Độ trễ bắt đầu tiêm (ngày)": -0.67,
+    "Số loại vaccine sử dụng": 0.23,
+    "log10(Tốc độ tiêm TB)": 0.9
+  },
+  "hoi_quy": {
+    "r2_train": 0.83,
+    "r2_test": 0.82,
+    "mae": 8.8,
+    "he_so_log_toc_do": 49.2,
+    "he_so_do_tre": -0.116
+  },
+  "phan_loai": {
+    "accuracy": 0.98,
+    "f1": 0.96,
+    "quan_trong": {
+      "log10(Tốc độ tiêm TB)": 0.98,
+      "Độ trễ bắt đầu tiêm (ngày)": 0.02,
+      "Số loại vaccine sử dụng": 0.0
+    }
+  },
+  "viet_nam": {
+    "tiem_du": 79.2,
+    "tre": 94,
+    "hang_asean": 4
+  },
+  "ket_luan": [
+    "Tốc độ tiêm toàn cầu tăng nhanh trong năm 2021 rồi giảm dần; tỉ lệ tiêm đủ liều giữa các quốc gia chênh lệch lớn (từ 0.6% đến 96.1%).",
+    "Hồi quy: tốc độ tiêm trung bình tăng 10 lần gắn với tỉ lệ tiêm đủ liều cao hơn 49.2 điểm %; mỗi ngày bắt đầu muộn hơn gắn với -0.116 điểm % (giữ các biến khác không đổi). Mô hình giải thích khoảng 82% biến thiên trên tập kiểm tra.",
+    "Phân loại: cây quyết định dự đoán khá chính xác quốc gia đạt mốc 70% (Accuracy 0.98) và gần như chỉ dựa vào tốc độ tiêm – năng lực tiêm hằng ngày là yếu tố quyết định.",
+    "Việt Nam: bắt đầu trễ 94 ngày so với quốc gia đầu tiên nhưng đạt 79.2% tiêm đủ liều, cao hơn trung vị 179 quốc gia (52.5%).",
+    "Hạn chế: chỉ có 3 biến giải thích, tập kiểm tra nhỏ nên kết quả thay đổi theo cách chia dữ liệu; tốc độ tiêm và tỉ lệ tiêm đủ liều cùng phản ánh năng lực tiêm chủng. Kết quả là tương quan, không khẳng định nhân quả.",
+    "Đề xuất: bổ sung biến kinh tế – xã hội (GDP bình quân, dân số, chi tiêu y tế), dùng kiểm định chéo (cross-validation); về chính sách, chuẩn bị nguồn vaccine sớm và nâng năng lực tiêm hằng ngày là đòn bẩy quan trọng cho các chiến dịch tiêm chủng tương lai."
+  ],
+  "hinh": {
+    "xu_huong_toan_cau": "figures/xu_huong_toan_cau.png",
+    "top_quoc_gia": "figures/top_quoc_gia.png",
+    "tuong_quan": "figures/tuong_quan.png",
+    "tre_vs_ty_le": "figures/tre_vs_ty_le.png",
+    "du_doan": "figures/du_doan.png",
+    "asean": "figures/asean.png",
+    "loai_vaccine": "figures/loai_vaccine.png",
+    "ma_tran_nham_lan": "figures/ma_tran_nham_lan.png"
+  }
+}
